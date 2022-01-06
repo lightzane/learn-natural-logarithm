@@ -37,14 +37,13 @@ console.log('-----------------------------------------------------------------')
 // ln x / ln y = index
 const suffixes = ['k', 'm', 'b', 't', 'q'];
 
-// Let's change suffix for every 1000th
 // k ==> 1                            ln 1k / ln 1000 = 1 (dividing the exponents will result to 1 as quotient)
 // m ==> 1 000 000                    ln 1m / ln 1000 = 2 (dividing the exponents will result to 2 as quotient)
 // b ==> 1 000 000 000                ln 1b / ln 1000 = 3
 // t ==> 1 000 000 000 000            ln 1t / ln 1000 = 4
 // q ==> 1 000 000 000 000 000        ln 1q / ln 1000 = 5
 
-// Let's change suffix for every 1000th
+// Let's change suffix for every power of 1,000 th
 // 1k = 1000 = 1k
 // 1k * 1000 = 1m
 // 1m * 1000 = 1b
